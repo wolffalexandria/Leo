@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- ... -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./dist/tailwind.css" rel="stylesheet">
+    <script src="./Components/Navigation/index.js"></script>
+    <script src="./Components/ImageChanger/index.js"></script>
+    <script src="./Components/Modal/index.js"></script>
+    <!-- <link href="./components.css" rel="stylesheet"> -->
+</head>
+
+<body>
+    <div class="background">
+        <header>
+            <div class="w-full">
+                <div id="navigation">
+
+                </div>
+                <div class="py-24 rounded-lg">
+                    <div class="bg-transulcent lg:py-12 lg:flex lg:justify-center">
+                        <div class="bg-white lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg lg:rounded-lg">
+                            <div class="">
+                                <img alt="" src="./LeoPhotos/young.jpg" id="imgClickAndChange"
+                                    onmouseover="changeImage()" onmouseout="changeImage()"
+                                    class="object-cover h-96 w-96 rounded-l-lg" />
+                            </div>
+                            <div class="py-12 px-3 max-w-lg lg:w-1/2 mx-auto">
+                                <h2 class="text-3xl text-stone-dark font-bold">My name is <span
+                                        class="text-teal-dark">Leo</span></h2>
+                                <p class="mt-4 text-gray-600">I was adopted Feb. 6, 2013 and meeting my mom was love at
+                                    first sight. When we aren't playing outside with my favorite
+                                    toys, you will find me tucked away waiting for snuggles and love. My favorite treats
+                                    are bacon and carnitas. Thanks to my papa, I now know how to do tricks such as sit,
+                                    stay, lay down and play dead. </p>
+                                <div class="mt-6">
+                                    <button id="mybtn"
+                                        class="inline-block px-6 py-2 text-xs font-medium leading-6 text-center text-beige-light uppercase transition bg-teal-dark rounded shadow ripple hover:shadow-lg hover:bg-beige-dark focus:outline-none">
+                                        Throw Me A Bone?
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-center justify-center fixed left-0 bottom-0 w-full h-full bg-slate-dark hidden" id="mymodal">
+                <div class="bg-beige-light rounded-lg w-96">
+                    <div class="flex flex-col items-start p-4">
+                        <div class="flex items-start w-full">
+                            <div class="font-medium text-lg">
+                                <h1 class="text-stone-dark">Wow! That's so nice of you!</h1>
+                                <p class="text-stone">For us, it's the <span class="text-teal-dark">thought that counts!</span></p>
+                            </div>
+                            <div id="closebtn" class="ml-auto fill-current text-gray-700 w-6 h-6 cursor-pointer">&times;</div>
+                        </div>
+                    </div>
+                </div>
+</body>
+
+</html>

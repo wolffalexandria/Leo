@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background { 
+    background: url('../LeoPhotos/pexels-photomix-company-518245.jpg');
+    @apply h-screen bg-cover bg-repeat;
+}
+
+
+/* Default background by https://www.pexels.com/@knownasovan */
+/* .background {
+    background: url('./LeoPhotos/pexels-photomix-company-518245.jpg');
+} */

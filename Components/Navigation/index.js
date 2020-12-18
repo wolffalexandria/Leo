@@ -2,7 +2,7 @@ const navhtml = `<nav class="bg-transparent shadow-lg">
 <div class="md:flex items-center justify-between py-2 px-8 md:px-12">
   <div class="flex justify-between items-center">
     <div class="text-2xl font-bold text-beige-light md:text-3xl">
-      <a href="#">Leo</a>
+      <a href="./index.html">Leo</a>
     </div>
     <div class="md:hidden">
       <button type="button"

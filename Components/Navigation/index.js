@@ -21,7 +21,7 @@ const navhtml = `<nav class="bg-transparent shadow-lg">
       class="text-beige-light bg-beige-dark rounded hover:bg-teal-dark hover:text-teal-light hover:font-medium py-2 px-2 md:mx-2">Home</a>
     <a href="./about.html"
       class="text-beige-light bg-beige-dark rounded hover:bg-teal-dark hover:text-teal-light hover:font-medium py-2 px-2 md:mx-2">About</a>
-    <a href="#"
+    <a href="./gallery.html"
       class="text-beige-light bg-beige-dark rounded hover:bg-teal-dark hover:text-teal-light hover:font-medium py-2 px-2 md:mx-2">Gallery</a>
   </div>
 </div>

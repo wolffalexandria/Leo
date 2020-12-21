@@ -1,6 +1,6 @@
 {/* <div class="flex w-full justify-evenly"> */ }
 const galleryItemGenerator = (image) => `<figure class="my-9">
-    <img src="${image.src}" alt="${image.alt}" class="h-56 w-56 overflow-hidden">
+    <div style="background-image: url('${image.src}')" alt="${image.alt}" class="h-56 w-56 bg-cover overflow-hidden">
         <figcaption class="bg-teal-dark text-stone-dark">${image.caption}</figcaption>
 </figure>`
 

@@ -26,11 +26,11 @@ const navhtml = `<nav class="bg-transparent shadow-lg">
   </div>
   <div class="flex flex-col md:flex-row hidden md:block -mx-2">
     <a href="./index.html"
-      class="text-beige-light bg-beige-dark rounded hover:bg-teal-dark hover:text-teal-light hover:font-medium py-2 px-2 md:mx-2">Home</a>
+      class="nav-button">Home</a>
     <a href="./about.html"
-      class="text-beige-light bg-beige-dark rounded hover:bg-teal-dark hover:text-teal-light hover:font-medium py-2 px-2 md:mx-2">About</a>
+      class="nav-button">About</a>
     <a href="./gallery.html"
-      class="text-beiged-light bg-beige-dark rounded hover:bg-teal-dark hover:text-teal-light hover:font-medium py-2 px-2 md:mx-2">Gallery</a>
+      class="nav-button">Gallery</a>
   </div>
 </div>
 </nav>`

@@ -4,7 +4,7 @@
 
 .background { 
     background: url('../LeoPhotos/pexels-photomix-company-518245.jpg');
-    @apply h-screen bg-cover bg-repeat;
+    @apply bg-cover bg-repeat bg-local;
 }
 
 .nav-button {
